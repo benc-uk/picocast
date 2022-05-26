@@ -1,0 +1,96 @@
+[000000] codo_init
+[000000]   platform: Windows
+[000001]   Found config.txt
+[000001]   
+[000001]     01 window_size 0 0 // window width, height
+[000001]     02 screen_size 0 0 // screen width, height (stretched to window) 
+[000001]     03 show_fps 0 // Draw frames per second in the corner
+[000001]     04 windowed 1 // 1 to start up in windowed mode
+[000001]     05 window_position -1 -1 // x and y position of window (-1, -1 to let the window manager decide)
+[000001]     new window position: -1, -1
+[000001]     06 frameless 0 // 1 to use a window with no frame
+[000001]     07 fullscreen_method 1 // 0 maximized window (linux)  1 borderless desktop-sized window  2 hardware fullscreen (warning: erratic behaviour under some drivers)
+[000001]     08 foreground_sleep_ms 2 // number of milliseconds to sleep each frame. Try 10 to conserve battery power
+[000001]     09 background_sleep_ms 10 // number of milliseconds to sleep each frame when running in the background
+[000001]     10 sessions 19 // number of times program has been run
+[000001]     11 rmb_key 0 // 0 for none  226 for LALT
+[000001]     12 desktop_path 
+[000001]     13 read_controllers_in_background 0
+[000001]     14 sound_volume 256 // 0..256
+[000001]     15 music_volume 256 // 0..256
+[000001]     16 mix_buffer_size 1024
+[000001]     17 version 0.2.4C
+[000001]     18 volume 256
+[000001]     19 root_path c:/Dev/picocast/carts/
+[000001]     20 cdata_path c:/Dev/picocast/cdata/
+[000001]     21 joystick_index 0
+[000001]     22 button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[000001]     23 live_notes 0
+[000001]     24 cursor_snap 0
+[000001]     25 gui_theme 0
+[000001]     26 screenshot_scale 3
+[000001]     27 gif_scale 3
+[000001]     28 gif_len 16
+[000001]     29 gif_reset_mode 0
+[000001]     30 host_framerate_control 1
+[000001]     31 splore_filter 0
+[000001]     32 tab_width 1
+[000001]     33 draw_tabs 0
+[000001]     34 record_activity_log 1
+[000001]     35 allow_function_keys 1
+[000001]     36 check_for_cart_updates 1
+[000001]     37 auto_hide_mouse_cursor 5
+[000001]     38 aggressive_backups 0
+[000001]     39 periodic_backups 20
+[000001]     40 transform_screen 0
+[000001]     41 gfx_grid_lines 0
+[000001]   
+[000002]   codo_system_init
+[000368]   Compiled against SDL version: 2.0.2
+[000368]   Linked against SDL version:   2.0.9
+[000368]   Current video driver: windows
+[000368]   codo_reset_timer
+[000368]   codo_gui_init
+[000368]   codo_keys_init
+[000368]   codo_text_init
+[000368]   codo_video_init
+[000369]   codo_mouse_init
+[000369]   codo_joystick_init
+[000370]   Reading controller mappings: c:/Dev/picocast/sdl_controllers.txt
+[000370]   searching for joysticks
+[000370]     found 0 joysticks
+[000370]   ok
+[000370] ok
+[000380] codo_load_pod: C:/Dev/pico-8/pico8.dat ok 
+[000383] codo_set_screen 128 128 8 100
+[000383]  window size: 640 540
+[000519]   setting filter to nearest (screen_mode 0  back page width: 128)
+  renderer direct3d:
+   flags: 0x0000000E ( |  | )
+   texture formats (3): ARGB8888, YV12, IYUV
+   max texture size: 8192x8192
+[000522]  desktop size: 3440 1440
+[000522] ok
+[000524] codo_sound_init mix_buffer_size: 1024
+[000524] codo_sound_init
+[000524] SDL_INIT_AUDIO ok
+[000572] SDL_OpenAudio ok
+[000572]  freq:22050
+ channels:1
+[000572] Built-in audio drivers: 0 wasapi 1 directsound 2 winmm 3 disk 4 dummy
+[000572] Current audio driver: wasapi
+[000572] splore_init
+[000572] could not load favourites file: c:/Dev/picocast/favourites.txt
+[002398] loading c:/Dev/picocast/carts/main.html
+[002398] set current path: 
+[011197] run_cart current_filename: c:/Dev/picocast/carts/main.p8 running_filename: main.p8 running_cart_lid: 
+[020996] exporting html: demo.html 1 1
+[024148] run_cart current_filename: c:/Dev/picocast/carts/main.p8 running_filename: main.p8 running_cart_lid: 
+[028645] exporting html: demo.html 1 1
+[028648] 1. export html
+[028648] 1.a opening output: c:/Dev/picocast/carts/demo.html
+[028649] 1.b replacements
+[028650]  ok_
+[028659] codo_save_png result: 0  file: c:/Dev/picocast/_label.png
+[028659]  ok_
+[028660] 2. writing c:/Dev/picocast/carts/demo.js
